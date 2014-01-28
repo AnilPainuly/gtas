@@ -1,0 +1,11 @@
+/****************************************************************************************
+    //Page Name       : style.css
+    //Author Name     : Parker Prashant
+    //Date            : Sep 06 2013
+	//Purpose 		  : style for ie. Because it does not support min-height
+//***************************************************************************************************
+*/
+.contentDiv
+{
+	height: 480px !important;
+}

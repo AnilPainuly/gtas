@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Event Creation Form</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700%7CUbuntu:400,500italic,400italic,700&amp;subset=latin,latin">
+
+<link rel="stylesheet" type="text/css" href="selectListLib/style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="selectListLib/jquery-ui.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="./js/jquery-ui-timepicker-addon.js"></script>
+<link rel="stylesheet" type="text/css" href="selectListLib/jquery.multiselect.css" />
+<script type="text/javascript" src="selectListLib/src/jquery.multiselect.js"></script>
+
+
+
+<link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+
+
+
+	<link rel="stylesheet" type="text/css" media="print" href="style/print.css">
+		<script type="text/javascript" src="js/browserselector.js"></script> 
+<style>
+.createEventSection {
+	margin: 0px 0px 0px 85px;
+}
+</style>		
+</head>
+
+<body>
+<div class='container'>
+<div class='mainHeader'>
+	
+	<div class='headerInner'>
+	<div class='headerLogo'><a href='http://www.gtallsports.com'><img src='style/images/header.png'></a></div>
+	<div class='toolbar'>
+		<div id="toolbarMenu">
+			<a href="http://www.gtallsports.com">Home</a>
+				 &nbsp; | &nbsp; 	<a href="https://gtallsports.site-ym.com/general/?type=CONTACT">Contact Us</a>
+					 &nbsp; | &nbsp; <a href="https://gtallsports.site-ym.com/login.aspx">Sign In</a>
+					  &nbsp; | &nbsp; <a href="https://gtallsports.site-ym.com/general/register_member_type.asp?">Register</a>
+			</div>
+		</div>
+		<div class='logoContent'>
+			
+			<div class='siteContent'></div>
+					
+				
+			
+		</div>
+	</div>
+	
+</div>	
+
+<div class="mainDiv">
+<div class="mainInnerDiv">
+	<div class="contentDiv">
+	<div class="createEventHeading">Event Creation Form</div>
+	<div class="createEventSection">
+		<div class="eventRequiredText"><span>*</span> Required Field</div>
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Name of the Event <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Name" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Category <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<select>
+					<option>Select Category</option>
+					<option>Archery</option>
+					<option>Axe &amp; Knife Throwing</option>
+					<option>Badminton</option>
+				</select>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				National / World Ranking Event <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<select>
+					<option>No</option>
+					<option>Yes</option>
+				</select>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Start date of Event <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="mm/dd/yyyy" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Start time of Event <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="xx:xx AM / PM" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				End date of Event
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="mm/dd/yyyy" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				End time of Event
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="xx:xx AM / PM" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+			<div class="createEventRow">
+			<div class="createEventCell">
+				Event Location Name <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Location Name" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Location Address <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<textarea placeholder="Enter Address"></textarea>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Location City <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter City" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Location State <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<select>
+					<option> Select state </option>
+					<option>  </option>
+					<option>  </option>
+					<option>  </option>
+				</select>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Location Zip Code <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Zip" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventButtons">
+			<input type="submit" name="" value="Find ZIP using address" class="eventbutton" title="" />
+		</div><!-- /.createEventButtons -->
+		
+			
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Contact Name <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Contact Name" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Contact Email Address <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Email" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Contact Phone number - Public
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Phone" />
+				<span class="note">(optional - number public can call for info)</span>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Contact Phone number - Admin <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Phone" />
+				<span class="note">(Required -  for use by GTAS Admin only)</span>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Registration Cut-Off Date
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="mm/dd/yyyy" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->		
+
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Registration Link
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="http://" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Link to website
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="http://" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Early Weigh-In date
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="mm/dd/yyyy" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Early Weigh-In Location
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Location" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Early Weigh-In times
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				 <input type="text" name="earlyWeigh-inTime" id="earlyWeigh-inTime" value="" placeholder="Start Time" readonly="readonly" class="timeTextBox startTime hasDatepicker">
+                <input type="text" name="earlyWeigh-inTime_" id="earlyWeigh-inTime_" value="" placeholder="End Time" readonly="readonly" class="timeTextBox hasDatepicker">
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				"Day of" Weigh-Ins Location
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Location" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				"Day of" Event Weigh-In times
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" name="dayOfEventWeigh-inTime" id="dayOfEventWeigh-inTime" value="" placeholder="Start Time" readonly="readonly" class="timeTextBox startTime hasDatepicker">
+                <input type="text" name="dayOfEventWeigh-inTime_" id="dayOfEventWeigh-inTime_" value="" placeholder="End Time" readonly="readonly" class="timeTextBox hasDatepicker">
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Image/Logo Upload
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="file" placeholder="Upload image" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Upload Flyer for Event
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="file" placeholder="Upload pdf" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Narrative of entire Event <span>*</span>
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<textarea placeholder="Enter Event Details"></textarea>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		
+		<div class="createEventButtons">
+			<input type="submit" name="" value="Reset" class="eventbutton" title="" />
+			<input type="submit" name="" value="Submit" class="eventbutton" title="" />
+		</div><!-- /.createEventButtons -->
+	</div><!-- /.createEventSection -->
+    </div>
+    </div>
+    </div>
+</body>
+</html>

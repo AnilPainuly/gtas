@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Event Search</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700%7CUbuntu:400,500italic,400italic,700&amp;subset=latin,latin">
+
+<link rel="stylesheet" type="text/css" href="selectListLib/style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="selectListLib/jquery-ui.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="./js/jquery-ui-timepicker-addon.js"></script>
+<link rel="stylesheet" type="text/css" href="selectListLib/jquery.multiselect.css" />
+<script type="text/javascript" src="selectListLib/src/jquery.multiselect.js"></script>
+
+
+
+<link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+
+
+
+	<link rel="stylesheet" type="text/css" media="print" href="style/print.css">
+	<script type="text/javascript" src="js/browserselector.js"></script> 
+	<style>
+.eventTableClass {
+	margin-top: 0 !important;
+	padding: 0px;
+	width: 96%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.createEventSection {
+	margin: 0px 0px 0px 85px;
+}
+</style>			
+</head>
+
+<body>
+<div class='container'>
+<div class='mainHeader'>
+	
+	<div class='headerInner'>
+	<div class='headerLogo'><a href='http://www.gtallsports.com'><img src='style/images/header.png'></a></div>
+	<div class='toolbar'>
+		<div id="toolbarMenu">
+			<a href="http://www.gtallsports.com">Home</a>
+				 &nbsp; | &nbsp; 	<a href="https://gtallsports.site-ym.com/general/?type=CONTACT">Contact Us</a>
+					 &nbsp; | &nbsp; <a href="https://gtallsports.site-ym.com/login.aspx">Sign In</a>
+					  &nbsp; | &nbsp; <a href="https://gtallsports.site-ym.com/general/register_member_type.asp?">Register</a>
+			</div>
+		</div>
+		<div class='logoContent'>
+			
+			<div class='siteContent'></div>
+					
+				
+			
+		</div>
+	</div>
+	
+</div>	
+
+<div class="mainDiv">
+<div class="mainInnerDiv">
+	<div class="contentDiv">
+	<div class="adminSearch">
+	<div class="createEventHeading">Event Search</div>
+	<div class="createEventSection">
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Start Date
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" name="dayOfEventWeigh-inTime" id="dayOfEventWeigh-inTime" value="" placeholder="From" readonly="readonly" class="timeTextBox startTime hasDatepicker">
+                <input type="text" name="dayOfEventWeigh-inTime_" id="dayOfEventWeigh-inTime_" value="" placeholder="To" readonly="readonly" class="timeTextBox hasDatepicker">
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				National / World Championship Events
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<select>
+					<option>No</option>
+					<option>Yes</option>
+				</select>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event State
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<select>
+					
+				</select>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Zip
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Zip" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Category
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<select>
+					<option>Select Category</option>
+				</select>
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Event Creation Date
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" name="dayOfEventWeigh-inTime" id="dayOfEventWeigh-inTime" value="" placeholder="From" readonly="readonly" class="timeTextBox startTime hasDatepicker">
+                <input type="text" name="dayOfEventWeigh-inTime_" id="dayOfEventWeigh-inTime_" value="" placeholder="To" readonly="readonly" class="timeTextBox hasDatepicker">
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Contact Email 
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" placeholder="Enter Email" />
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		<div class="createEventRow">
+			<div class="createEventCell">
+				Last Edited Date
+			</div><!-- /.createEventCell -->
+			<div class="createEventCell2">
+				<input type="text" name="dayOfEventWeigh-inTime" id="dayOfEventWeigh-inTime" value="" placeholder="From" readonly="readonly" class="timeTextBox startTime hasDatepicker">
+                <input type="text" name="dayOfEventWeigh-inTime_" id="dayOfEventWeigh-inTime_" value="" placeholder="To" readonly="readonly" class="timeTextBox hasDatepicker">
+			</div><!-- /.createEventCell2 -->
+		</div><!-- /.createEventRow -->
+		
+		
+		<div class="createEventButtons">
+			<input type="submit" name="" value="Search" class="eventbutton" title="" />
+			<input type="submit" name="" value="Print" class="eventbutton" title="" />
+			<input type="submit" name="" value="Export to Excel" class="eventbutton" title="" />
+		</div><!-- /.createEventButtons -->
+	</div><!-- /.createEventSection -->
+	</div>
+    </div>
+    <div class="eventTableClass"><div id="ReportTable_wrapper" class="dataTables_wrapper" role="grid"><div id="ReportTable_length" class="dataTables_length"><label>Show <select size="1" name="ReportTable_length" aria-controls="ReportTable"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div class="dataTables_filter" id="ReportTable_filter"><label>Search: <input type="text" aria-controls="ReportTable"></label></div>
+    
+    <table id="ReportTable" class="tablesorter dataTable" aria-describedby="ReportTable_info"><thead>
+    	<tr role="row">
+    		<th width="30%" class="sorting_asc" role="columnheader" tabindex="0" aria-controls="ReportTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Event Name: activate to sort column descending" style="width: 276px;"><span>Event Name</span></th>
+    		<th width="40%" class="sorting" role="columnheader" tabindex="0" aria-controls="ReportTable" rowspan="1" colspan="1" aria-label="Event Type: activate to sort column ascending" style="width: 115px;text-align: center;" align="center"><span>Event Type</span></th>
+    		<th width="15%" class="sorting" role="columnheader" tabindex="0" aria-controls="ReportTable" rowspan="1" colspan="1" aria-label="Event Start Date: activate to sort column ascending" style="width: 132px;text-align: center;" align="center"><span>Event Start Date</span></th>
+    		<th width="15%" class="sorting" role="columnheader" tabindex="0" aria-controls="ReportTable" rowspan="1" colspan="1" aria-label="Event Start Date: activate to sort column ascending" style="width: 132px;text-align: center;" align="center"><span>NAT'L/WORLD EVENT</span></th>
+    		<th width="15%" class="sorting" role="columnheader" tabindex="0" aria-controls="ReportTable" rowspan="1" colspan="1" aria-label="Event Start Date: activate to sort column ascending" style="width: 132px;text-align: center;" align="center"><span>STATE</span></th>
+    		<th width="15%" class="centerText sorting" role="columnheader" tabindex="0" aria-controls="ReportTable" rowspan="1" colspan="1" aria-label="Distance (miles): activate to sort column ascending" style="width: 132px;text-align: center;"><span>Distance (miles)</span></th>
+   		</tr></thead>
+   		<tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd">
+		<td class=" sorting_1"><a href="allSportsDetails.html" target="_blank">Southeastern Regional Yoga Asana Championship</a></td>
+		<td class=" " align="center" style="text-align: center;">Yoga</td>
+		<td class=" " align="center" style="text-align: center;">10/06/2012</td>    
+		<td class=" " align="center" style="text-align: center;">Y</td>
+		<td class=" " align="center" style="text-align: center;">AK</td>
+		<td class="centerText ">15.9</td>
+		</tr></tbody>
+   </table>
+	<div class="dataTables_info" id="ReportTable_info">Showing 1 to 1 of 1 entries</div><div class="dataTables_paginate paging_full_numbers" id="ReportTable_paginate"><a tabindex="0" class="first paginate_button paginate_button_disabled" id="ReportTable_first">First</a><a tabindex="0" class="previous paginate_button paginate_button_disabled" id="ReportTable_previous">Previous</a><span><a tabindex="0" class="paginate_active">1</a></span><a tabindex="0" class="next paginate_button paginate_button_disabled" id="ReportTable_next">Next</a><a tabindex="0" class="last paginate_button paginate_button_disabled" id="ReportTable_last">Last</a></div></div></div>
+    </div>
+    </div>
+</body>
+</html>

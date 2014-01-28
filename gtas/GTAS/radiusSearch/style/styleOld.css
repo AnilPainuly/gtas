@@ -1,0 +1,442 @@
+/****************************************************************************************
+    //Page Name       : style.css
+    //Author Name     : Alan Anil
+    //Date            : July 30 2013
+						**======================================================================
+	//| Ref No.	|  Author name	| Date	         |  Modification description
+	//		1		Parker Prashant		20-Aug-2013		Changes in ui
+	//		2		Parker Prashant		05-Sep-2013		Change the stye to match with ym
+//***************************************************************************************************
+*/
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/* added by parker for match with ym */
+html
+{
+	width:100%;
+}
+body
+{
+    font-family: 'Droid Sans', Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12px;
+    zoom:0 !important;
+    background: #1c1c1c url('images/bodybg.jpg') repeat;
+ 
+}
+.mainHeader
+{
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	height: 235px;
+	width: 100%;
+	margin-top: 20px;
+	background: #1c1c1c url('images/bodybg.jpg') repeat;
+}
+.headerInner
+{
+	text-align: left;
+	width: 990px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.headerLogo
+{
+	width: 454px;
+	height: 216px;
+	position: absolute;
+	top: 2;
+}
+.headerLogo a
+{
+	text-decoration: none;
+	border: none;
+}
+.headerLogo a img{
+	width:100%;
+	height: 100%;
+	border: none;
+}
+.toolbar
+{
+	background: #bf1e2e url('images/bg-toolbar.jpg') repeat-x top left;
+	height: 25px;
+	text-align: right;
+
+}
+#toolbarMenu
+{
+	color: white;
+	float: right;
+	margin-top: 5px;
+	margin-right: 8px;
+}
+#toolbarMenu a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	text-shadow: 1px 1px 0 #000;
+	text-transform: uppercase;
+	padding: 5px 5px 0 5px;
+}
+#toolbarMenu a:hover
+{
+	color:#F2A8B0;
+}
+.siteContent
+{
+	height: 129px;
+	background: url('images/bg-header.png');
+	width: 990px;
+}
+#Copyright {
+/*	background: none repeat scroll 0 0 transparent;
+	color: #CCCCCC;
+	height: 20px;
+	overflow: hidden;
+	margin-bottom: 0;
+	padding-bottom: 14px;
+	font-size: 11px;
+	text-align: center; */
+	background: none repeat scroll 0 0 transparent;
+	color: #CCCCCC;
+	height: 20px;
+	overflow: hidden;
+	margin-bottom: 0;
+	padding-bottom: 14px;
+	font-size: 11px;
+	text-align: center;
+	width: 100%;
+	float: left;
+	bottom: 0;
+	margin-bottom: 10px;
+}
+#Copyright a {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+#Copyright a:hover {
+    color: #B62534;
+    text-decoration: none;
+}
+/* style added by parker for ym match ends here */
+.eventBlock
+{ 
+	width:150px;
+	text-align: center;
+} 
+.eventSeprator
+{
+	margin-bottom:50px;
+}
+.eventRowSeprator 
+{
+	margin-top:7px;
+}
+.successMsg
+{
+margin-left: 65px;
+font-size: 13px;
+}
+.topHeading
+{
+	font-weight: bold;
+	/*text-decoration:underline;*/
+	margin-top: 21px;
+	margin-bottom: 37px;
+}
+#loading
+{
+	text-align: center;
+}
+.mainDiv
+{
+	font-family: 'Droid Sans', Arial, Helvetica, Verdana, sans-serif;
+	width: 100%;
+	text-align: center;
+	background: #1c1c1c url('images/bodybg.jpg') repeat;
+}
+.mainInnerDiv
+{
+	width: 990px;
+	text-align: left;
+	margin: 0 auto;
+	background: white;
+	border-top: 4px solid #838383;
+	margin-bottom: 20px;
+}
+.contentDiv
+{
+	padding: 10px 20px 20px 20px;
+	min-height: 480px;
+	height: auto;
+}
+.mainInnerDiv2
+{
+	max-width: 550px;
+}
+.zipCodeSearch
+{
+	margin-left: 40px;
+}
+.radiusSearchContent 
+{
+	float:left; 
+	width:100px;;
+	text-align: right;
+	margin-right: 17px;
+	min-height: 20px;
+}
+.submitButton
+{
+	float: left;
+	margin-right: 8px;
+}
+
+
+.dropDown
+{
+	width: 219px;
+	font-family: 'Droid Sans', Arial,Helvetica,Verdana,sans-serif;
+	color: #000;
+	font-size: 11px;
+	height: 20px;
+
+}
+input[type=text]
+{
+	width:219px;
+	padding-left:4px;
+	border: 1px solid #262626;
+	
+}
+.width290
+{
+	width:219px;
+	padding-left:4px;
+}
+.margin260
+{
+margin-left:260px;	
+}
+.formbutton:hover {
+ background: linear-gradient(to bottom, #A31A2A 0%, #BC4751 100%) repeat scroll 0 0 transparent;
+ cursor: pointer;
+}
+.formbutton {
+background: #bc4751;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #bc4751 0%, #a31a2a 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc4751), color-stop(100%,#a31a2a));
+background: -webkit-linear-gradient(top, #bc4751 0%,#a31a2a 100%);
+background: -o-linear-gradient(top, #bc4751 0%,#a31a2a 100%);
+background: -ms-linear-gradient(top, #bc4751 0%,#a31a2a 100%);
+background: linear-gradient(to bottom, #bc4751 0%,#a31a2a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc4751', endColorstr='#a31a2a',GradientType=0 );
+color: #fff;
+color: white;
+font-size: 11px;
+font-family: 'Droid Sans';
+text-align: center;
+padding: 3px 5px;
+border: 1px solid #A00012;
+text-shadow: 1px 0 0 #700014;
+}
+
+.spTitleBar {
+border-bottom: 1px dashed #BF1E2E !important;
+background: none;
+font-family: 'Droid Sans', Arial,Helvetica,Verdana,sans-serif;
+font-weight: 700;
+font-size: 28px;
+color: #3E3E3E;
+height: auto;
+display: block;
+padding-left: 0;
+}
+
+
+
+/* style for table */
+.eventTableClass {
+	margin-top: 20px;
+	padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #7f0000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.eventTableClass table{
+	width:100%;
+	margin:0px;padding:0px;
+	border-collapse: collapse;
+}.eventTableClass tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.eventTableClass table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.eventTableClass table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.eventTableClass tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.eventTableClass tr:hover td{
+	background-color:#ffffff;
+		
+
+}
+.eventTableClass td{
+	vertical-align:middle;
+	font-family: 'Droid Sans', Arial, Helvetica, Verdana, sans-serif;
+	background-color:#e5c0c0;
+	word-wrap:break-word;
+	border-width: 0px 1px 1px 0px !important;
+	text-align:center;
+	padding:4px;
+	font-size:12px;
+	font-weight:normal;
+	color:#000000;
+	border: 1px solid rgb(180, 127, 127);
+}
+.width211
+{
+	width:211px !important;
+}
+.eventTableClass tr th{
+	background: #bc4751;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #bc4751 0%, #a31a2a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc4751), color-stop(100%,#a31a2a));
+	background: -webkit-linear-gradient(top, #bc4751 0%,#a31a2a 100%);
+	background: -o-linear-gradient(top, #bc4751 0%,#a31a2a 100%);
+	background: -ms-linear-gradient(top, #bc4751 0%,#a31a2a 100%);
+	background: linear-gradient(to bottom, #bc4751 0%,#a31a2a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc4751', endColorstr='#a31a2a',GradientType=0 );
+	border:0px solid #7f0000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:13px;
+	font-family: 'Droid Sans', Arial, Helvetica, Verdana, sans-serif;
+	font-weight:bold;
+	color:#ffffff;
+	padding: 4px;
+}
+.eventTableClass #ReportTable tr th:hover{
+ background: linear-gradient(to bottom, #A31A2A 0%, #BC4751 100%) repeat scroll 0 0 transparent;
+ cursor: pointer;
+}
+#ReportTable th:hover{
+ background: linear-gradient(to bottom, #A31A2A 0%, #BC4751 100%) repeat scroll 0 0 transparent;
+ cursor: pointer;
+}
+.eventTableClass tr:first-child td:first-child{
+	border-width:0px;
+}
+.eventTableClass tr:first-child td:last-child{
+	border-width:0px;
+}
+
+/* style for table ends here */
+
+
+/* style addded by parker */
+.innerText
+{
+	line-height: 24px;
+	font-size: 12px;
+	color: #000000;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+}
+.printBtn
+{
+	float: left;
+	margin-right: 8px;
+}
+.exportBtn
+{
+	float: left;
+}
+.bottomButtons
+{
+	display: inline-block;
+	width: 100%;
+	margin-left:117px;
+}
+.errorArea
+{
+	color:red;
+}
+.requiredStar
+{
+	color: #cc0000;
+	font-family: 'Droid Sans';
+}
+.requiredText
+{
+	font-family: 'Droid Sans', Arial,Helvetica,Verdana,sans-serif;
+	color:#000000;
+	font-style:italic;
+}
+.errorText
+{
+	color: red;
+	margin-left: 10px;
+}
+.width70
+{
+	width:70px;
+}
+.eventTableClass table a
+{
+ 	color: #000;
+	text-decoration: none;
+}
+.eventTableClass table a:hover
+{
+	color:#E05F6C;
+}
+.tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	
+	}	
+	
+.zipCodeElements {
+	margin-bottom: 5px;
+	margin-top: 10px;
+}

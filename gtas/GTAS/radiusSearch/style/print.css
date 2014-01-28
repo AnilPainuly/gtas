@@ -1,0 +1,145 @@
+/****************************************************************************************
+    //Page Name       : style.css
+    //Author Name     : Alan Anil
+    //Date            : July 30 2013
+						**======================================================================
+	//| Ref No.	|  Author name	| Date	         |  Modification description
+	//		1		Parker Prashant		20-Aug-2013		Changes in ui
+	//		2		Parker Prashant		05-Sep-2013		Change the stye to match with ym
+//***************************************************************************************************
+*/
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/* added by parker for match with ym */
+html
+{
+	width:100%;
+}
+body
+{
+    font-family: 'Droid Sans', Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12px;
+    zoom:0 !important;
+    background: none;
+ 
+}
+
+
+/* style for table */
+.eventTableClass {
+	margin-top: 20px;
+	padding: 0px;
+	width: 100%;
+}
+.eventTableClass table{
+	width:100%;
+	margin:0px;padding:0px;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+
+.eventTableClass td{
+	vertical-align: middle;
+	font-family: 'Droid Sans', Arial, Helvetica, Verdana, sans-serif;
+	word-wrap: break-word;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.width211
+{
+	width:211px !important;
+}
+.eventTableClass tr th{
+	font-family: 'Droid Sans', Arial,Helvetica,Verdana,sans-serif;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-top: 0;
+	border-bottom: 0;
+	height: 30px;
+	padding: 5px;
+}
+.eventTableClass #ReportTable tr th:hover{
+	cursor: pointer;
+	background: rgb(73, 68, 68);
+}
+.eventTableClass .odd{
+	background-color: #ebebeb;
+}
+.eventTableClass table a {
+color: #AF2900;
+text-decoration: none;
+}
+
+/* style for table ends here */
+
+
+/* style addded by parker */
+
+/* style for pager */
+
+
+.mainInnerDiv
+{
+	border:none !important;
+}
+.mainHeader
+{
+	display:none;
+}
+#radiusSearchFormId
+{
+	display:none;
+}
+.eventTableClass
+{
+	display:none;
+}
+.spTitleBar
+{
+	display:none;
+}
+.ReportTable_filter
+{
+	display:none;
+}
+.dataTables_info
+{
+	display:none;
+}
+#loading
+{
+	display:none;
+}
+.topHeading
+{
+	display:none;
+}
+#ReportTable_paginate
+{
+	display:none;
+}
+#Copyright
+{
+	display: none;
+}
+.printContainer
+{
+	display:block;
+}
+.printContainer .eventTableClass
+{
+	display:block;
+}
+

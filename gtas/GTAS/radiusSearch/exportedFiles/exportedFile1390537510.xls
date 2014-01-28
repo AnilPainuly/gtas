@@ -1,0 +1,104 @@
+                <html xmlns:o="urn:schemas-microsoft-com:office:office"
+                xmlns:x="urn:schemas-microsoft-com:office:excel"
+                xmlns="http://www.w3.org/TR/REC-html40">
+
+                <head>
+                <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+                <meta name=ProgId content=Excel.Sheet>
+                <!--[if gte mso 9]><xml>
+                 <o:DocumentProperties>
+                  <o:LastAuthor>Sriram</o:LastAuthor>
+                  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+                  <o:Version>10.2625</o:Version>
+                 </o:DocumentProperties>
+                 <o:OfficeDocumentSettings>
+                  <o:DownloadComponents/>
+                 </o:OfficeDocumentSettings>
+                </xml><![endif]-->
+                <style>
+                <!--table
+                    {mso-displayed-decimal-separator:"\.";
+                    mso-displayed-thousand-separator:"\,";}
+                @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+                tr
+                    {mso-height-source:auto;}
+                col
+                    {mso-width-source:auto;}
+                br
+                    {mso-data-placement:same-cell;}
+                .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+                td
+                    {mso-style-parent:style0;
+                    padding-top:1px;
+                    padding-right:1px;
+                    padding-left:1px;
+                    mso-ignore:padding;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    border:none;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    mso-protection:locked visible;
+                    white-space:nowrap;
+                    mso-rotate:0;}
+                .xl24
+                    {mso-style-parent:style0;
+                    white-space:normal;}
+                -->
+                </style>
+                <!--[if gte mso 9]><xml>
+                 <x:ExcelWorkbook>
+                  <x:ExcelWorksheets>
+                   <x:ExcelWorksheet>
+                    <x:Name>srirmam</x:Name>
+                    <x:WorksheetOptions>
+                     <x:Selected/>
+                     <x:ProtectContents>False</x:ProtectContents>
+                     <x:ProtectObjects>False</x:ProtectObjects>
+                     <x:ProtectScenarios>False</x:ProtectScenarios>
+                    </x:WorksheetOptions>
+                   </x:ExcelWorksheet>
+                  </x:ExcelWorksheets>
+                  <x:WindowHeight>10005</x:WindowHeight>
+                  <x:WindowWidth>10005</x:WindowWidth>
+                  <x:WindowTopX>120</x:WindowTopX>
+                  <x:WindowTopY>135</x:WindowTopY>
+                  <x:ProtectStructure>False</x:ProtectStructure>
+                  <x:ProtectWindows>False</x:ProtectWindows>
+                 </x:ExcelWorkbook>
+                </xml><![endif]-->
+                </head>
+
+                <body link=blue vlink=purple>
+                <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >EVENT NAME</td><td class=xl24 width=64 >EVENT TYPE</td><td class=xl24 width=64 >EVENT START DATE</td><td class=xl24 width=64 >N/W EVENT</td><td class=xl24 width=64 >STATE</td></tr><tr><td class=xl24 width=64 >11th ANNUAL PA WINTER BLAST ARMWRESTLING TOURNAMENT</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >03/22/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >PA</td></tr><tr><td class=xl24 width=64 >13th Annual Tri-State Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >03/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2013 Annual U.S. Open Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >04/12/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 California Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >01/25/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 California Junior Badminton Championships</td><td class=xl24 width=64 >Badminton</td><td class=xl24 width=64 >02/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 Europa Super Show Armwrestling Challenge</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >05/10/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 Graham/Toms U.S. Senior Badminton International</td><td class=xl24 width=64 >Badminton</td><td class=xl24 width=64 >01/07/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 Maine State Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >03/01/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 Northwest Junior Badminton Regional</td><td class=xl24 width=64 >Badminton</td><td class=xl24 width=64 >01/18/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 Saint Patricks Day Weightlifting Championship</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >03/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 Southern California Youth Weightlifting Championships</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >07/05/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >2014 USAF UNIFIED NATIONAL ARMWRESTLING CHAMPIONSHIPS</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >06/28/2014</td><td class=xl24 width=64 >Y</td><td class=xl24 width=64 >NV</td></tr><tr><td class=xl24 width=64 >20th Annual Europa USAA National Pro-Am Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >06/28/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >210 Winter Weightlifting Invitational</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >02/22/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >3rd Annual Maine Call to Arms Armwrestling</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >06/07/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >5th Annual Chikara Sport St Patty s Day weightlifting Meet</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >03/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >8th Annual NAPF Caribbean Powerlifting Championships</td><td class=xl24 width=64 >Power Lifting</td><td class=xl24 width=64 >03/26/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Alabama State Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >02/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Alafia Fat Tire Festival Biking Event</td><td class=xl24 width=64 >Bicycle - All Types</td><td class=xl24 width=64 >11/07/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Alaska State Weightlifting Championships</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >02/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Amateur Fight Night MMA & Kickboxing</td><td class=xl24 width=64 >MMA</td><td class=xl24 width=64 >01/11/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Annual U.S. Open Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >04/12/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Arizona State Weightlifting Championships</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >04/05/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Armwrestling National Sitdown</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >02/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Athletic Lab Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >02/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Bad Mother Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >08/16/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Barbell Kings Weightlifting Classic</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/25/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Border Wars Armwrestling Challenge</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >02/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >California\'s Strongest Hands And Mas Wrestling Tourney</td><td class=xl24 width=64 >Wrestling|Grip</td><td class=xl24 width=64 >01/18/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Calpian Weightlifting Invitational</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >06/07/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Cantua Creek Bicycle Road Race</td><td class=xl24 width=64 >Bicycle - All Types</td><td class=xl24 width=64 >02/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Chicage Kettlebell Classic</td><td class=xl24 width=64 >Kettlebells</td><td class=xl24 width=64 >06/06/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Chicagoland Winter Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/18/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >CO State Weightlifting Championships</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >02/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Community Health & Wellness Fair</td><td class=xl24 width=64 >Health & Nutrition</td><td class=xl24 width=64 >01/04/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Croom 35/50 Off Road Mountain Bike Challenge</td><td class=xl24 width=64 >Bicycle - All Types</td><td class=xl24 width=64 >02/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Dariotus Memorial W/L Champs</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/04/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >FDU Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/18/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Flagler Gun and Archery Club</td><td class=xl24 width=64 >Archery</td><td class=xl24 width=64 >02/22/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Frank Spellman Weightlifting Classic</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/26/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Golden State Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >02/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Gulf Coast Powerlifting Championships #TX-2014-01</td><td class=xl24 width=64 >Power Lifting</td><td class=xl24 width=64 >03/09/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Huachuca Mountain Archers & Bowhunters</td><td class=xl24 width=64 >Archery</td><td class=xl24 width=64 >04/13/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Illinois State Armwrestling Championships</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >01/25/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Lewistown Bowhunters Association</td><td class=xl24 width=64 >Archery</td><td class=xl24 width=64 >08/09/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Lodi Against the World Arm Wrestling Championships</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >03/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >National Capital DC Badminton Open</td><td class=xl24 width=64 >Badminton</td><td class=xl24 width=64 >01/17/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pittsburgh Open Weightlifting Championships</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/04/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Powerlifting High School Nationals #NS-2014-02</td><td class=xl24 width=64 >National & World|Power Lifting</td><td class=xl24 width=64 >03/28/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Raider Weightlifting Invitational</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >02/09/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >RI State Armwrestling Championship</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >01/25/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Rocky Top Rumble Armwrestling</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >01/04/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Sherwood Archery Club Main</td><td class=xl24 width=64 >Archery</td><td class=xl24 width=64 >03/01/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Silver Dollar BMX Bicycle Nationals</td><td class=xl24 width=64 >Bicycle - All Types</td><td class=xl24 width=64 >01/10/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >South Sound Weightlifting Spring Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >03/29/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Southside Billiards - Savannah, GA (Monthly)</td><td class=xl24 width=64 >Billiards</td><td class=xl24 width=64 >02/15/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >TAA 3RD ANNUAL ARMWRESTLING APPLETON HARLEY PULL</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >04/26/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >TCA New Year\'s Weightlifting Meet</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >01/04/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The 2014 Odd Haugen Strength Classic The Visegrip Vikingâ„¢ Challenge presented by Iron Mind</td><td class=xl24 width=64 >Grip</td><td class=xl24 width=64 >01/25/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The 20th Annual Sarasota Highland Games and Celtic Festival</td><td class=xl24 width=64 >Axe Throwing|Canine Competition|Dance|Golf|Highland Games</td><td class=xl24 width=64 >02/01/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The Ginny Robinson Memorial Breast Cancer Awareness Weightlifting Competition</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >10/12/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The Iron Game Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >03/01/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The New England Weightlifting Academy Camp</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >07/28/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The New England Weightlifting Academy Competition</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >08/02/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >The Triad Highland Games</td><td class=xl24 width=64 >Axe Throwing|Dance|Highland Games</td><td class=xl24 width=64 >05/02/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Titans of The Table Open Arm Wrestling Challenge II</td><td class=xl24 width=64 >Arm Wrestling</td><td class=xl24 width=64 >02/22/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Trident Spring Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >04/26/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Trident Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >11/08/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >USBA 2014 NATIONAL CHAMPIONSHIP - Paris Bida - Houston, TX</td><td class=xl24 width=64 >Billiards</td><td class=xl24 width=64 >04/09/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Washington Weightlifting Open</td><td class=xl24 width=64 >Olympic Lifting</td><td class=xl24 width=64 >09/27/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >World Jr Biathlon Championships</td><td class=xl24 width=64 >Biathlon</td><td class=xl24 width=64 >02/25/2014</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr></table></body></html>
