@@ -1,10 +1,10 @@
 <?php 
 // Database information
 	$CFG_DB= array();
-	$CFG_DB['db_host']= 'db482651200.db.1and1.com';
-	$CFG_DB['db_user']= 'dbo482651200';
-	$CFG_DB['db_pass']= 'zDF274*jk9';
-	$CFG_DB['db_base']= 'db482651200';
+	$CFG_DB['db_host']= 'localhost';
+	$CFG_DB['db_user']= 'test';
+	$CFG_DB['db_pass']= 'test';
+	$CFG_DB['db_base']= 'testdb';
 	
 	/* ----------------------------- */
 	/* Connecting to MySQL server: */
